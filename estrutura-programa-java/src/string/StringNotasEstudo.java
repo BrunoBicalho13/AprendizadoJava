@@ -1,0 +1,25 @@
+package string;
+
+import java.util.Scanner;
+
+/*
+ * String é um tipo de referência que representa uma cadeia de caracteres
+ * 
+ */
+public class StringNotasEstudo {
+    @SuppressWarnings("ConvertToTryWithResources")
+    public static void main(String[] args) {
+        
+        String texto = "Um texto para ser impresso";
+        System.err.println(texto);
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite seu nome");
+        String nome = sc.nextLine();
+        System.out.println("Olá " + nome);
+        sc.close();
+
+
+
+    }
+}
